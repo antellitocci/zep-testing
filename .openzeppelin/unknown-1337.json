@@ -1,0 +1,84 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x42D4BA5e542d9FeD87EA657f0295F1968A61c00A",
+    "txHash": "0xd29c9dfee081bee708d8d9a3c2379d6c4008adde8c1ce7b0e68bebfdab8f1fc1"
+  },
+  "proxies": [
+    {
+      "address": "0x25AF99b922857C37282f578F428CB7f34335B379",
+      "txHash": "0xea9e7e19d6e5ad75a4199252a49700204fc04408aa0697c2507bc3dd377e158b",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "172cc5707fe127923b90d2e8f9fc0c7bccebb2477de199cdb30e54938dc2aed5": {
+      "address": "0xC5aFE31AE505594B190AC71EA689B58139d1C354",
+      "txHash": "0xde6998e83c1b52e1fe72de75ae7ffe0da94446fbae4b621172f694b897f67272",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:37"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:42"
+          },
+          {
+            "contract": "Box",
+            "label": "_value",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\Box.sol:9"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "0a084bdab54cf269ecbe07bdc898bcfd547815c95d741e3670f9132a95558985": {
+      "address": "0x995629b19667Ae71483DC812c1B5a35fCaaAF4B8",
+      "txHash": "0x3a7e2a8358d15e80bb1a8cbb9f67108ee1d43ff9a5abe250520ab3bedd7bba27",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:37"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:42"
+          },
+          {
+            "contract": "BoxV2",
+            "label": "_value",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\BoxV2.sol:9"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    }
+  }
+}
